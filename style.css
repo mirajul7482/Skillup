@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 20px;
+    background-color: #F87B00;
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    flex: 1;
+    text-align: right;
+
+}
+.menu ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu ul li{
+  display: inline-block;  
+  margin-left: 20px;
+  font-size: 20px;
+    
+    
+    
+}
+.menu ul li :hover {
+    text-decoration:none ;
+}
+a{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+.logo img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-left: 150px;
+}
+.navber{
+    padding-left: 50px;
+    padding-right: 50px !important;
+}
+.search img{
+    height: 20px;
+    width: 30px;
+}
+.login{
+    background-color: #EC008C;
+    border-radius: 40px;
+    padding: 5px 5px;
+}
+.bannerd{
+    background-color: #F87B00;
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding-left: 150PX;
+    width: 50%;
+    margin: 0 80PX;
+    font-weight: 900;
+    
+}
+.content button{
+    font-weight: 900;
+    padding: 5px 15px;
+    margin: 20px 0;
+    border-radius: 30px;
+    background-color: #AE2F7A;
+    cursor: pointer;
+}
+.dress img{
+    width: 300px;
+    height: 450px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+    border-radius: 40px;
+
+
+}
+.content h1{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.icon {
+    margin-left: 150px;
+    display: flex;
+    float: left;
+}
+.icons{
+    
+    height: 170px;
+    margin: 70px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.icons p{
+    font-size: 9PX;
+}
+.user{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+}
+.user img {
+    width: 550px;
+    margin-left: 50px;
+}
+.usert{
+    align-items: center;
+    margin: auto;
+    margin-left: 20px;
+}
+.usert h1{
+    color: #851592;
+    margin: 15px 0;
+
+}
+.usert h2{
+    color: #851592;
+}
+.usert p{
+    font-style: italic;
+    line-height: 25px;
+}
+.usert button{
+    background-color: #851592;
+    font-size: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.Esearch{
+    margin-top: 20px;
+    display: flex;
+    float: left;
+}
+.Esearch input{
+    padding: 20px 150px;
+    margin: 50px 50px 50px 200px;
+    border: 2px solid #F87B00;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F87B00;
+
+}
+.Esearch input::placeholder{
+    color: #AE2C1E;
+}
+.Esearch input:focus{
+    border: 2px solid #F87B00;
+}
+.Esearch button{
+   margin-top: 50PX; 
+   padding: 25PX 30PX;
+   border-radius: 30PX;
+   background-color: #F87B00;
+   cursor: pointer;
+   color: antiquewhite;
+   font-weight: bold;
+   font-size: 20PX;
+   border: none;
+}
+.galary{
+    margin-top: 50px;
+    padding-left: 200px;
+    display: flex;
+    float: left;
+    background-color: #F87B00;
+}
+.galaryt{
+    width: 70%;
+    margin: 50px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+}
+.galary img{
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    border-radius: 20px;
+}
+.galaryt button{
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #AE2C1E;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #F87B00;
+    color: antiquewhite;
+    display: flex;
+    float: right;
+    width: 100%;
+
+}
+.footer{
+    padding: 10px;
+    padding-left: 500px;
+}
